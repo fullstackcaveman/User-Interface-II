@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root {
-	--primary-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-		'Lucida Sans', Arial, sans-serif;
+	--primary-font: 'Montserrat', sans-serif;
 	--primary-color: #1a1a1d;
 	--secondary-color: #4e4e50;
 	--accent-color-1: #6f2232;
@@ -28,6 +29,7 @@ button {
 	text-decoration: none;
 }
 
+/* Header Section */
 header {
 	display: flex;
 	justify-content: space-between;
@@ -103,5 +105,63 @@ header {
 	color: var(--accent-color-2);
 }
 
+/* Hero Section */
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: var(--primary-color);
+}
+
+.hero img {
+	width: 400px;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.hero-info {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 60px;
+}
+
+.hero-info form {
+	margin-bottom: 20px;
+}
+
+.hero-info p {
+	font-size: 20px;
+}
+
+/* Projects Section */
+.projects-container {
+	margin: 0 10px;
+}
+
+.projects-container h2 {
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: space-evenly;
+}
+
+.project {
+	margin-bottom: 30px;
+}
+
+/* Footer Section */
 footer {
 }
