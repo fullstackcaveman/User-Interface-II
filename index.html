@@ -5,6 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="css/index.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+		/>
 		<title>Chris Burton | FullStackCaveman</title>
 	</head>
 	<body>
@@ -84,9 +88,33 @@
 
 		<!-- Footer Begin -->
 		<footer>
-			<!-- Social Links -->
-			<p class="btn btn-contact">Contact Me</p>
+			<div class="flex-h">
+				<div class="social">
+					<a href="https://www.linkedin.com/in/fullstackcaveman/"
+						><i class="fab fa-linkedin"></i
+					></a>
+					<a href="https://github.com/fullstackcaveman"
+						><i class="fab fa-github"></i
+					></a>
+				</div>
+				<form action="/contact.html" class="footer-form">
+					<p>Like What You See?</p>
+					<button class="btn btn-primary">Contact</button>
+				</form>
+				<nav>
+					<ul class="footer-links">
+						<li class="btn-home"><a href="index.html">Home</a></li>
+						<li class="btn-about"><a href="/about.html">About</a></li>
+						<li class="btn-projects"><a href="/projects.html">Projects</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="copy">
+				<p>Copyright &copy;2021 | FullStackCaveman</p>
+			</div>
 		</footer>
+		<!-- Social Links -->
 		<!-- Footer End -->
 	</body>
 </html>
