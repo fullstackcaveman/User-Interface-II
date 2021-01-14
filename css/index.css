@@ -118,7 +118,7 @@ header {
 }
 
 .hero img {
-	width: 400px;
+	width: 500px;
 }
 
 h1 {
@@ -129,7 +129,7 @@ h1 {
 .hero-info {
 	display: flex;
 	flex-direction: column;
-	padding: 20px 60px;
+	padding: 20px 100px;
 }
 
 .hero-info form {
@@ -143,12 +143,15 @@ h1 {
 /* Projects Section */
 .projects-container {
 	margin: 0 10px;
+	color: var(--primary-color);
 }
 
 .projects-container h2 {
 	text-align: center;
 	margin: 0 auto;
 	padding: 10px;
+	font-size: 35px;
+	color: var(--accent-color-2);
 }
 
 .projects {
@@ -158,8 +161,32 @@ h1 {
 	align-items: space-evenly;
 }
 
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6,
+.project7,
+.project8 {
+	text-align: center;
+	margin: 0 5px;
+	margin-bottom: 40px;
+}
+
+.projects img {
+	width: 250px;
+	filter: grayscale();
+}
+
+.projects img:hover {
+	filter: none;
+	cursor: pointer;
+}
+
 .project {
 	margin-bottom: 30px;
+	text-align: center;
 }
 
 /* Footer Section */
