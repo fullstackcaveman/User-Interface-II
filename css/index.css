@@ -33,6 +33,7 @@ button {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 5%;
 }
 
 /* Buttons */
@@ -155,8 +156,9 @@ h1 {
 
 /* Projects Section */
 .projects-container {
-	margin: 0 10px;
+	margin: 0 auto;
 	color: var(--primary-color);
+	max-width: 1280px;
 }
 
 .projects-container h2 {
