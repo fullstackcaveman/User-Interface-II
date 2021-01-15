@@ -65,6 +65,11 @@ button {
 	color: var(--accent-color-3);
 }
 
+.btn-home:before {
+	content: '';
+	color: var(--accent-color-3);
+}
+
 .btn-about {
 	color: var(--accent-color-3);
 }
