@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+	--primary-font: 'Montserrat', sans-serif;
+	--primary-color: #1a1a1d;
+	--secondary-color: #4e4e50;
+	--accent-color-1: #6f2232;
+	--accent-color-2: #950740;
+	--accent-color-3: #c3073f;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+	/* border: 1px solid black; */
+}
+
+body {
+	/* display: flex;
+	flex-direction: column; */
+	font-family: var(--primary-font);
+}
+
+li,
+a,
+button {
+	text-decoration: none;
+}
+
+.flex-h {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5%;
+}
+
+/* Buttons */
+.btn {
+	font-size: 20px;
+	padding: 5px 20px;
+	border-radius: 8px;
+	border: none;
+	font-family: var(--primary-font);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn-primary {
+	background-color: var(--accent-color-3);
+	color: var(--primary-color);
+}
+
+.btn-primary:hover {
+	background-color: var(--secondary-color);
+	color: #fff;
+}
+
+.btn-home {
+	color: var(--accent-color-3);
+}
+
+.btn-about {
+	color: var(--accent-color-3);
+}
+
+.btn-projects {
+	color: var(--accent-color-3);
+}
+
+/* Header Section */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 2%;
+	background-color: var(--primary-color);
+}
+
+.home-link {
+	cursor: pointer;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.home-link:visited {
+	color: var(--accent-color-3);
+}
+
+.nav-links {
+	list-style: none;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+}
+
+.nav-links li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+
+.nav-links li a:visited {
+	color: var(--accent-color-3);
+}
+
+.nav-links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+	color: #fff;
+}
+
+/* Hero Section */
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 99%;
+	margin: 0 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: var(--primary-color);
+}
+
+.hero img {
+	width: 500px;
+	border-radius: 3px;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.hero-info {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 80px;
+	overflow: hidden;
+}
+
+.hero-info form {
+	margin-bottom: 20px;
+}
+
+.hero-info p {
+	font-size: 20px;
+}
+
+/* Projects Section */
+.projects-container {
+	margin: 0 auto;
+	color: var(--primary-color);
+	max-width: 1280px;
+}
+
+.projects-container h2 {
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 35px;
+	color: var(--accent-color-2);
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: space-evenly;
+}
+
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6,
+.project7,
+.project8 {
+	text-align: center;
+	margin: 0 5px;
+	margin-bottom: 40px;
+}
+
+.projects img {
+	width: 250px;
+	filter: grayscale();
+}
+
+.projects img:hover {
+	filter: none;
+	cursor: pointer;
+}
+
+.project {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+/* Footer Section */
+footer {
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+	background-color: var(--primary-color);
+	padding: 20px 40px;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.social1,
+.social2,
+.social3 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.social1 a,
+.social2 a,
+.social3 a {
+	margin-bottom: 5px;
+	color: var(--secondary-color);
+	font-weight: bold;
+}
+
+.social1:hover a,
+.social2:hover a,
+.social3:hover a {
+	color: var(--accent-color-3);
+}
+
+.social1:hover i,
+.social2:hover i,
+.social3:hover i {
+	color: var(--accent-color-3);
+}
+
+.social i {
+	font-size: 25px;
+	color: var(--secondary-color);
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.social i:hover {
+	color: var(--accent-color-2);
+}
+
+.footer-links {
+	list-style-type: none;
+	font-size: 20px;
+	color: var(--secondary-color);
+	font-weight: bold;
+}
+
+.footer-links li {
+	margin-bottom: 10px;
+}
+
+.footer-links a:visited {
+	color: var(--secondary-color);
+}
+
+.footer-links a:hover {
+	color: var(--accent-color-3);
+}
+
+.footer-form {
+	margin-right: 30px;
+	text-align: center;
+}
+
+.footer-form p {
+	font-weight: bold;
+	color: var(--secondary-color);
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.footer-form button {
+	margin-bottom: 20px;
+}
+
+.footer-form button:hover {
+	background-color: var(--secondary-color);
+}
+
+.copy p {
+	font-size: 15px;
+	text-align: center;
+}
