@@ -87,7 +87,7 @@ header {
 	background-color: var(--primary-color);
 }
 
-header a {
+a:link {
 	color: var(--accent-color-3);
 }
 
