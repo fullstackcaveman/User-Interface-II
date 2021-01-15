@@ -29,6 +29,14 @@ button {
 	text-decoration: none;
 }
 
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
 .flex-h {
 	display: flex;
 	justify-content: space-between;
@@ -85,6 +93,10 @@ header {
 	align-items: center;
 	padding: 20px 2%;
 	background-color: var(--primary-color);
+}
+
+a:active {
+	color: var(--accent-color-3);
 }
 
 a:link {
