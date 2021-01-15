@@ -39,8 +39,8 @@ button {
 /* Buttons */
 .btn {
 	font-size: 20px;
-	padding: 5px 10px;
-	border-radius: 5px;
+	padding: 5px 20px;
+	border-radius: 8px;
 	border: none;
 	font-family: var(--primary-font);
 	font-weight: bold;
@@ -209,14 +209,50 @@ footer {
 	display: flex;
 	flex-direction: column;
 	height: 150px;
-	background-color: var(--secondary-color);
+	background-color: var(--primary-color);
 	padding: 20px 40px;
 }
 
+.social {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.social1,
+.social2,
+.social3 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.social1 a,
+.social2 a,
+.social3 a {
+	margin-bottom: 5px;
+	color: var(--secondary-color);
+	font-weight: bold;
+}
+
+.social1:hover a,
+.social2:hover a,
+.social3:hover a {
+	color: var(--accent-color-3);
+}
+
+.social1:hover i,
+.social2:hover i,
+.social3:hover i {
+	color: var(--accent-color-3);
+}
+
 .social i {
-	font-size: 35px;
-	color: var(--primary-color);
+	font-size: 25px;
+	color: var(--secondary-color);
 	margin-right: 10px;
+	margin-bottom: 5px;
 }
 
 .social i:hover {
@@ -226,7 +262,7 @@ footer {
 .footer-links {
 	list-style-type: none;
 	font-size: 20px;
-	color: var(--primary-color);
+	color: var(--secondary-color);
 	font-weight: bold;
 }
 
@@ -235,7 +271,7 @@ footer {
 }
 
 .footer-links a:visited {
-	color: var(--primary-color);
+	color: var(--secondary-color);
 }
 
 .footer-links a:hover {
@@ -243,10 +279,13 @@ footer {
 }
 
 .footer-form {
+	margin-right: 30px;
 	text-align: center;
 }
 
 .footer-form p {
+	font-weight: bold;
+	color: var(--secondary-color);
 	font-size: 20px;
 	margin-bottom: 10px;
 }
@@ -256,7 +295,7 @@ footer {
 }
 
 .footer-form button:hover {
-	background-color: var(--primary-color);
+	background-color: var(--secondary-color);
 }
 
 .copy p {
