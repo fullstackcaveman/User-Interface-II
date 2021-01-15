@@ -195,6 +195,7 @@ h1 {
 	text-align: center;
 	margin: 0 5px;
 	margin-bottom: 40px;
+	box-shadow: 2px 2px 5px var(--accent-color-1), 4px 4px 10px black;
 }
 
 .projects img {
