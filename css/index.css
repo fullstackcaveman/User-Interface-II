@@ -89,6 +89,7 @@ header {
 }
 
 .home-link {
+	color: var(--accent-color-3);
 	cursor: pointer;
 	font-size: 35px;
 	font-weight: bold;
@@ -279,7 +280,7 @@ footer {
 	margin-bottom: 10px;
 }
 
-.footer-links a:visited {
+.footer-links li a:visited {
 	color: var(--secondary-color);
 }
 
