@@ -85,7 +85,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2rem 2%;
+	padding: 2rem 3%;
 	background-color: var(--primary-color);
 }
 
@@ -232,7 +232,7 @@ footer {
 	flex-direction: column;
 	height: 15rem;
 	background-color: var(--primary-color);
-	padding: 2rem 4rem;
+	padding: 2rem 3%;
 }
 
 .social {
@@ -334,12 +334,20 @@ footer {
 }
 
 @media (max-width: 1030px) {
+	header {
+		padding: 2rem 1.5%;
+	}
+
 	.hero-info {
 		padding: 2rem 2rem;
 	}
 
 	.hero img {
 		max-width: 50%;
+	}
+
+	footer {
+		padding: 2rem 2%;
 	}
 }
 
@@ -398,6 +406,7 @@ footer {
 	header {
 		display: flex;
 		flex-direction: column;
+		padding: 2rem 1%;
 	}
 
 	header button {
